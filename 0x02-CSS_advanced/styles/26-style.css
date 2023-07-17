@@ -1,0 +1,15 @@
+.card-testimonial {
+  text-align: center;
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: calc(10 * var(--root-element));
+  height: calc(10 * var(--root-element));
+}
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: var(--root-element);
+  color: var(--color-primary);
+}
