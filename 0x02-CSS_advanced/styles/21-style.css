@@ -1,0 +1,14 @@
+[class^="col-"] {
+  float: left;
+  padding: calc(var(--root-element) / 2);
+}
+
+.col-1-3 {
+  float: none;
+  padding: 0;
+}
+
+.col-1-2 {
+  float: none;
+  padding: 0;
+}
