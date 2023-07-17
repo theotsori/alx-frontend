@@ -1,10 +1,7 @@
 /* Styling & custom nav */
-nav-item-link-hover {
-  color: var(--color-white);
-}
-
-nav-link:before {
+.nav-link::before {
   content: "";
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -13,7 +10,10 @@ nav-link:before {
   height: 20%;
 }
 
-nav-link:hover:before {
-  background-color: var(--color-primary);
+.nav-link:hover::before {
   width: 100%;
+}
+
+.nav-item-link-hover {
+  color: var(--color-white);
 }

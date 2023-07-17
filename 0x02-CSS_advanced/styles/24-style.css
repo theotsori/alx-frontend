@@ -4,7 +4,7 @@
 
 .card-services a {
   display: block;
-  padding: calc(var(--root-element) * 2);
+  padding: calc(0.5 * 1rem);
   background-color: var(--color-light-grey);
 }
 

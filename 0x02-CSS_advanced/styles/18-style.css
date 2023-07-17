@@ -1,24 +1,14 @@
-:root {
-  --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--font-weight-bold);
-  --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
-  --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 calc(3 * var(--root-element)) 0;
-  --nav-item-link-hover: var(--color-primary);
-}
-
+/* Customizing the navbar */
 .navbar-menu {
   float: right;
 }
 
-nav {
+.nav {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-nav .nav-item {
+.nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -27,11 +17,21 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav-link {
   display: block;
-  padding: var(--root-element) var(--root-element) var(--root-element) var(--root-element);
+  padding: calc(0.5 * 1rem) calc(0.5 * 1rem);
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+:root {
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: var(--font-weight-bold);
+  --nav-item-font-size: var(--font-size-medium);
+  --nav-item-letter-spacing: 4%;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 calc(3 * var(--root-element)) 0;
+  --nav-item-link-hover: var(--color-primary);
 }
