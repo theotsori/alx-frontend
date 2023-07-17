@@ -1,8 +1,9 @@
-:root {
-  --nav-item-link-hover: var(--color-white);
+/* Styling & custom nav */
+nav-item-link-hover {
+  color: var(--color-white);
 }
 
-nav-link::before {
+nav-link:before {
   content: "";
   position: absolute;
   top: 0;
@@ -12,7 +13,7 @@ nav-link::before {
   height: 20%;
 }
 
-nav-item:hover nav-link::before {
+nav-link:hover:before {
   background-color: var(--color-primary);
   width: 100%;
 }
