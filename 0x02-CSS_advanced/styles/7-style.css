@@ -1,32 +1,12 @@
 :root {
   --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
   font-family: var(--font-family-base);
 }
 
-h1 {
-  font-family: var(--font-family-title);
-}
-
-h2 {
-  font-family: var(--font-family-title);
-}
-
-h3 {
-  font-family: var(--font-family-title);
-}
-
-h4 {
-  font-family: var(--font-family-title);
-}
-
-h5 {
-  font-family: var(--font-family-title);
-}
-
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
 }
